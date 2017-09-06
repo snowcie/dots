@@ -1,0 +1,61 @@
+#! ~/.conkyrc
+# preview https://i.imgur.com/kG3apWm.png
+own_window_transparent no
+own_window_argb_visual yes
+own_window_argb_value 80
+own_window_class Conky
+own_window yes
+own_window_hints undecorated,sticky,skip_taskbar,skip_pager,below
+background no
+use_xft no
+xftfont Iosevka:size=8
+xftalpha 1
+update_interval 0.5
+total_run_times 0
+double_buffer yes
+minimum_size 140 100
+maximum_width 400
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+default_color white
+default_outline_color white
+alignment top_right
+gap_x 10
+gap_y 10
+no_buffers yes
+uppercase yes
+cpu_avg_samples 2
+override_utf8_locale yes
+ 
+TEXT
+${font Iosevka:size=8}${color eee}Time ${hr 1}${font Iosevka:size=8}
+$alignc${font Iosevka:size=8}${color eee}${time %H:%M }${font Iosevka:pixelsize=8}
+
+${font Iosevka:pixelsize=}${color eee}Date ${hr 1}${font Iosevka:size=}
+$alignc${font Iosevka:size=8}${color eee}${time %d.%m.%y }${font Iosevka:size=8}
+
+  NETWORK $hr
+Gateway:$alignr$gw_ip
+External IP $alignr ${exec curl -s www.icanhazip.com}
+SSID: $alignr ${wireless_essid wlan0}
+Connection Quality: $alignr ${wireless_link_qual wlan0}%
+
+  ${font Iosevka:pixelsize=8}${color eee}CPU${hr 1}${font Iosevka:pixelsize=8}
+CPU0: ${cpu cpu0}% ${cpubar cpu0}
+CPU1: ${cpu cpu1}% ${cpubar cpu1}
+CPU2: ${cpu cpu2}% ${cpubar cpu2}
+CPU3: ${cpu cpu3}% ${cpubar cpu3}
+Temperature ${execi 10 sensors | grep 'Core 0' | cut -c16-24 | sed '/^$/d'}
+
+  HDD & I/O $hr
+Filesystem Space Left
+/$alignr${fs_used /}/${fs_size /}
+$fs_bar
+Disk I/O $alignr$diskio /s
+$diskiograph
+
+  RAM $hr
+$alignc $mem / $memmax $alignr $memperc%
+$memgraph
