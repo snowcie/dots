@@ -1,5 +1,3 @@
-#! ~/.conkyrc
-# preview https://i.imgur.com/kG3apWm.png
 own_window_transparent no
 own_window_argb_visual yes
 own_window_argb_value 80
@@ -33,7 +31,7 @@ TEXT
 ${font Iosevka:size=8}${color eee}Time ${hr 1}${font Iosevka:size=8}
 $alignc${font Iosevka:size=8}${color eee}${time %H:%M }${font Iosevka:pixelsize=8}
 
-${font Iosevka:pixelsize=}${color eee}Date ${hr 1}${font Iosevka:size=}
+${font Iosevka:pixelsize=8}${color eee}Date ${hr 1}${font Iosevka:size=8}
 $alignc${font Iosevka:size=8}${color eee}${time %d.%m.%y }${font Iosevka:size=8}
 
   NETWORK $hr
