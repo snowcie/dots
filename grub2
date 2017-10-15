@@ -1,4 +1,4 @@
-
+#! ~/etc/default/grub
 GRUB_DEFAULT="Windows 7 (on /dev/sda1)"
 GRUB_TIMEOUT=5
 GRUB_DISTRIBUTOR="Arch"
