@@ -1,20 +1,20 @@
   //General
 
-Region [all regions]
-Language [EN/US]
+Region                        [all regions]
+Language                      [EN/US]
 
-Safe Search [off]
-instant answers [on]
+Safe Search                   [off]
+instant answers               [on]
 
-auto load [off]
-auto-suggest [on]
-new windows [off]
-ads [on]
-units of measure [default]
-direction source [google maps]
+auto load                     [off]
+auto-suggest                  [on]
+new windows                   [off]
+ads                           [on]
+units of measure              [default]
+direction source              [google maps]
 
-Page Break #'s [on]
-Page Break Lines [on]
+Page Break #'s                [on]
+Page Break Lines              [on]
 
   //Theme
 
@@ -24,9 +24,9 @@ Default
    
    Page Appearance
    
-Font [Proxima Nova]
-Font Size [Large
-Page Width [Large]
+Font                         [Proxima Nova]
+Font Size                    [Large
+Page Width                   [Large]
 Center Alignment             [off]
 Background Color             [#ffffff]
 
