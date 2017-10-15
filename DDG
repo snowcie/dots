@@ -1,0 +1,63 @@
+  //General
+
+Region [all regions]
+Language [EN/US]
+
+Safe Search [off]
+instant answers [on]
+
+auto load [off]
+auto-suggest [on]
+new windows [off]
+ads [on]
+units of measure [default]
+direction source [google maps]
+
+Page Break #'s [on]
+Page Break Lines [on]
+
+  //Theme
+
+Default
+
+  //Appearance
+   
+   Page Appearance
+   
+Font [Proxima Nova]
+Font Size [Large
+Page Width [Large]
+Center Alignment             [off]
+Background Color             [#ffffff]
+
+   Header Appearance
+
+Header Behavior              [On & Dynamic]
+Header Color                 [#ffffff]
+   
+   Results Appearance
+   
+Result Title Font            [Proxima Nova]
+Result Title Color           [#2b1ba9]
+Result Visited Title Color   [#6c00a2]
+Result Title Underline       [off]
+
+Result Description Color     [#545454]
+Result URL Color             [#006621]
+Result Highlight Color       [#f7f7f7]
+Result Full URLs             [On]
+Result URLs above snippet    [On]
+Result Visited Check Mark    [Off]
+
+Site Icons [On]
+
+   //Privacy
+   
+HTTPS                        [On]
+GET requests                 [On]
+Video Playback               [Open on third-party site]
+Redirect (when necessary)    [On]
+
+
+   
+
