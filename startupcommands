@@ -1,0 +1,5 @@
+xrdb ~/.Xresources
+// Xdefaults
+xrdb -merge ~/.Xresources
+
+xrandr --output LVDS1 --brightness 0.5
