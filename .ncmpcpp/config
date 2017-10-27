@@ -1,6 +1,5 @@
-
-mpd_port "~/.mpd/socket"
-mpd_host "6600"
+mpd_host = "/var/run/mpd/socket"
+mpd_port "6001" 
 mpd_music_dir = "~/Music"
 mpd_crossfade_time = "5"
 
