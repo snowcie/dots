@@ -1,22 +1,31 @@
-!...
-URxvt*scrollBar:  false
-URxvt*skipScroll:  true
-URxvt*geometry:  default
-URxvt*loginShell: true
-URxvt.cursorBlink: True
-URxvt.internalBorder: 5
-! URxvt*depth: 32
-! URxvt*background: rgba:0000/0000/0200/c800
+*xterm*faceName:                xft:Envy Code R for Powerline:pixelsize=12.2
+hardstatus alwayslastline: "%{= k}%{W}%-w[%n %t]%+w%-=%{W}%C %a "
+autodetach: "on"
 
-! extensions
-URxvt.perl-ext-common: default,clipboard,keyboard-select
+!xterm*lineSpace:                -3
+!xterm.letterSpace:              -1
+xterm.iso14755:                 false
+xterm.iso14755_52:              false
+xterm*geometry:                 65x17
+xterm.scrollBar:                false
+xterm*loginShell:               true
+xterm.internalBorder:           35
+! -----------------
 
-URxvt.copyCommand:  xclip -i -selection clipboard
-URxvt.pasteCommand: xclip -o -selection clipboard
+xterm*termName: xterm-256color
+*xterm*borderWidth: 0
+xterm*locale: true
+xterm*salveLines: 4096
+xterm*faceSize: 9
+xterm*saveLines: 4096
+xterm*cursorBlink: True
+xterm*loginshell: False
 
-! c/p
-URxvt.keysym.Control-C: perl:clipboard:copy
-URxvt.keysym.Control-V: perl:clipboard:paste
+xterm*VT100.Translations: #override \
+                 Ctrl Shift <Key>V:    insert-selection(CLIPBOARD) \n\
+                 Ctrl Shift <Key>C:    copy-selection(CLIPBOARD)
+
+            
 
 *foreground: #C7C7C7
 *background: #151515
@@ -43,4 +52,4 @@ URxvt.keysym.Control-V: perl:clipboard:paste
 *color14:    #9CE9FF
 !white
 *color7:     #dddddd
-*color15:    #dddddd
+*color15: #dddddd
