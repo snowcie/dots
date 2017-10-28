@@ -1,3 +1,5 @@
+% egrep -v '^#' .ncmpcpp/config
+
 mpd_host = "/var/run/mpd/socket"
 mpd_port "6001" 
 mpd_music_dir = "~/Music"
