@@ -6,7 +6,7 @@ Next b
 Gentoo bspwm runit -O3/Grahpite/LTO
 mpv
 mpd+ncmpcpp
-xfe
+pcmanfm
 nvim
 FF  beta portable on a  persistent rd
 termite
