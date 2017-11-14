@@ -6,9 +6,9 @@ Next b
 Gentoo bspwm runit -O3/Grahpite/LTO
 mpv
 mpd+ncmpcpp
-thunar
+spacefm
 nvim
-FF portable persistent rd
+FF  beta portable on a  persistent rd
 termite
 dash (script) bash interactive
 ruTorrent
