@@ -4,7 +4,7 @@ WM Theme: Breezemite
 
 Next b
 >OS
-Gentoo runit with MuQSS, no initrd and this overlay https://github.com/InBetweenNames/gentooLTO
+Gentoo runit with MuQSS, no initrd, EFI Stub and this overlay https://github.com/InBetweenNames/gentooLTO
 >WM
 bspwm
 >Video player
