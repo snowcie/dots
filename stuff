@@ -9,7 +9,7 @@ mpd+ncmpcpp
 >Image viewer
 feh
 >File manager
-xfe
+spacefm
 >Text editor
 nvim
 >Shell
