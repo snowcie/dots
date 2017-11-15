@@ -3,14 +3,25 @@ Font: San Francisco
 WM Theme: Breezemite
 
 Next b
-Gentoo bspwm runit -O3/Grahpite/LTO
+>OS
+Gentoo runit with MuQSS, no initrd and this overlay https://github.com/InBetweenNames/gentooLTO
+>WM
+bspwm
+>Video player
 mpv
+>Music player
 mpd+ncmpcpp
-pcmanfm
+>Image viewer
+feh
+>File manager
+xfe
+>Text editor
 nvim
-FF  beta portable on a  persistent rd
-termite
-dash (script) bash interactive w powerline
-ruTorrent
-
-
+>Shell
+dash for scripts, bash for interactive shell
+>Browser
+FF Beta on a persistent rd
+>Terminal
+termite / alacritty
+>Torrent
+rutorrent
