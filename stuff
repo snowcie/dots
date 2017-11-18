@@ -2,21 +2,23 @@
 Gentoo runit with MuQSS, no initrd, efistub and this overlay https://github.com/InBetweenNames/gentooLTO
 >WM
 bspwm
+>Shell
+dash for scripts, bash for interactive shell
+>Language
+C++, x86 asm
+>IDE
+vis
+>Terminal Emulator
+alacritty
+>File manager
+spacefm
 >Video player
 mpv
 >Music player
 mpd+ncmpcpp
 >Image viewer
 feh
->File manager
-spacefm
->Text editor
-nvim
->Shell
-dash for scripts, bash for interactive shell
 >Browser
 FF Beta on a persistent rd
->Terminal
-termite / alacritty
 >Torrent
 rutorrent
