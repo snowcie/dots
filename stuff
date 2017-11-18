@@ -3,20 +3,20 @@ Gentoo runit with MuQSS, no initrd, efistub and this overlay https://github.com/
 >WM
 bspwm/tmux
 >Shell
-dash for scripts, bash for interactive shell
->Language
+ion, bash when needed
+>Programming Language
 C++, x86 asm
->IDE
+>IDE/Text Editor
 vis
 >Terminal Emulator
 st though alacritty looks promising
->File manager
+>File Manager
 spacefm
->Video player
+>Video Player
 mpv
->Music player
+>Music Player
 mpd+ncmpcpp
->Image viewer
+>Image Viewer
 feh
 >Browser
 FF Beta on a persistent rd
