@@ -1,5 +1,5 @@
 >OS
-Gentoo runit with MuQSS, no initrd, efistub and this overlay https://github.com/InBetweenNames/gentooLTO
+Gentoo runit with MuQSS, / under initramfs, efistub and this overlay https://github.com/InBetweenNames/gentooLTO
 >WM
 bspwm/tmux
 >Shell
