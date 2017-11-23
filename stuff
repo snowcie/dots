@@ -3,13 +3,13 @@ Gentoo runit with MuQSS, / under initramfs, efistub and this overlay https://git
 >WM
 bspwm/tmux
 >Shell
-ion, bash when needed
+ion, pdksh
 >Programming Language
 C++, x86 asm
 >IDE/Text Editor
 vis
 >Terminal Emulator
-st although alacritty looks promising
+alacritty
 >File Manager
 spacefm
 >Video Player
