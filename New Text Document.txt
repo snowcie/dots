@@ -3,7 +3,7 @@ Windows LTSB
 Android ADB, Fastboot and Drivers
 7Zip
 CCleaner with CCenhancer
-Chrome Dev Portable in a persistent rd with Privacy Badger, Pure URL, Smart HTTPS, GreaseMonkey and uBlock Origin
+Chrome Dev Portable in a persistent rd
 Cygwin
 Discord
 DropIt
@@ -30,7 +30,7 @@ Unpack CPU Cores              @ http://www.coderbag.com/Uploads/Unpark-CPU-App.z
 KMSpico Portable              @ http://forums.mydigitallife.info/threads/65739-KMSpico-Official-Thread/
 Debloat Windows 10            @ https://github.com/W4RH4WK/Debloat-Windows-10
 Destroy Windows 10 Spying     @ https://github.com/Nummer/Destroy-Windows-10-Spying
-Kernel Paging                 - HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management  Change the value of the “DisablePagingExecutive” key to “1”
-Boot Delay                    - HKEY_Current_User\Software\Microsoft\Windows\CurrentVersion\Explorer\Serialize         New DWORD Key “StartupDelayInMsc” 0
+Kernel Paging                 - HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management  Change the value of the â€œDisablePagingExecutiveâ€ key to â€œ1â€
+Boot Delay                    - HKEY_Current_User\Software\Microsoft\Windows\CurrentVersion\Explorer\Serialize         New DWORD Key â€œStartupDelayInMscâ€ 0
 Disable Memory Compression    PS> Disable-MMAgent -mc
 Manage Autostarts             HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run String Value (name) [complete path]  
