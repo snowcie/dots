@@ -4,6 +4,7 @@ Android ADB, Fastboot and Drivers
 7Zip
 CCleaner with CCenhancer
 Chrome Dev Portable in a persistent rd
+Classic Shell
 Cygwin
 Discord
 DropIt
@@ -23,6 +24,7 @@ Rufus
 Steam @ C:\Games\Steam
 VLC
 VMware
+ZeroNet
 
 Tweaks & Other
 
