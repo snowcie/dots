@@ -1,0 +1,59 @@
+# See: /usr/share/doc/mpd/mpdconf.example
+
+# In  ~/.mpd $ mkdir playlists && touch log && touch mpd.db && touch state && touch sticker.sql
+# sudo gpasswd -a mpd <your login group>  sudo chmod 710 /home/<your home dir>  
+# Environment Variable: export MPD_HOST=$HOME/var/run/mpd/socket
+
+#! ~/.mpd/mpd.conf && /etc/mpd.conf
+pid_file      "~/.mpd/mpd.pid"
+db_file      "~/.mpd/mpd.db"
+log_file      "~/.mpd/log"
+state_file      "~/.mpd/state"
+playlist_directory      "~/.mpd/playlists"
+music_directory      "~/Music"
+sticker_file      "~/.mpd/sticker.sql"
+
+user      "li"
+
+bind_to_address     "127.0.0.1" #UNIX socket
+port	            "6600"
+
+log_level    "default"
+
+# PULSEAUDIO
+audio_output {
+        music_directory       "~/Music"
+        playlist_directory    "~/.mpd/playlists"
+        db_file               "~/.mpd/mpd.db"
+        log_file              "~/.mpd/mpd.log"
+        pid_file              "~/.mpd/mpd.pid"
+        state_file            "~/.mpd/mpdstate"
+        mixer_type            "software"
+        type                  "pulse"
+        name                  "MPD Output"
+}
+
+# ALSA
+audio_output {
+        type                   "alsa"
+        name                   "Sound Card"
+        options                "dev=dmixer"
+        device                 "plug:dmix"
+}
+
+# VISUALIZER
+audio_output {
+type                            "fifo"
+name                            "FIFO"
+path                            "/tmp/mpd.fifo"
+format                          "44100:16:2"
+}
+
+input {
+    plugin      "tidal"
+    enabled     "no"
+}
+input {
+    plugin      "qobuz"
+    enabled     "no"
+}
